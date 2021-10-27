@@ -8,6 +8,7 @@ read -r name
 
 if [ $name == "Bâtard" ]
 then echo "Jet d'acide dans ta gueule."
+else
 
 echo "Ton chat s'appelle $name." && sleep 1s
 
@@ -53,3 +54,4 @@ case $name in
 		echo "Ma base de données semble indiquer que $name ne sent pas bon."
 	;;
 esac
+fi
