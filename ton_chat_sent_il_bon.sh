@@ -50,6 +50,6 @@ case $name in
 		echo "Hélas, je ne dispose d'aucune information au sujet de $name."
 	;;
 	*)
-		echo "Ma base de données semble indiquer que $name ne sent pas bon." && sleep 2s
+		echo "Ma base de données semble indiquer que $name ne sent pas bon."
 	;;
 esac
